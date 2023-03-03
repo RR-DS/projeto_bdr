@@ -9,6 +9,8 @@ import java.util.Date;
 @NoArgsConstructor
 @Entity
 @Table
+@Data
+@Builder
 
 public class Records {
     @Id
